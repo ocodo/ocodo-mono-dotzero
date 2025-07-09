@@ -58,7 +58,7 @@ jobs:
 
       - name: Build TTF from SFD
         run: |
-          for weight in Thin; do
+          for weight in Thin Light; do
             for font_type in ttf woff2; do
               fontforge -c "import fontforge as ff; font = ff.open('./font/OcodoMonoDotZero-$weight.sfd'); font.generate('OcodoMonoDotZero-$weight.$font_type')"
             done
@@ -71,7 +71,7 @@ jobs:
 
       - name: Patch font with Nerd Fonts and Generate Woff2 copies
         run: |
-          for weight in Thin; do
+          for weight in Thin Light; do
             fontforge --script ./fontpatcher/font-patcher --complete OcodoMonoDotZero-$weight.ttf | grep -E -v "[%╢█░╟\d]"
             ls -l *ttf
             fontforge -c "import fontforge as ff;font = ff.open('OcodoMonoDotZeroNerdFont-$weight.ttf');font.generate('OcodoMonoDotZeroNerdFont-$weight.woff2')"

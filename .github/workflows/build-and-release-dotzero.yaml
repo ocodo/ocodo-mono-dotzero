@@ -1,0 +1,124 @@
+name: Build and Release Ocodo Mono Dot Zero
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'font/*.sfd'
+
+jobs:
+  version-check:
+    runs-on: ubuntu-latest
+    outputs:
+      should_build: ${{ steps.check.outputs.new_version }}
+      version: ${{ steps.sfd_version.outputs.version }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Extract version from SFD
+        id: sfd_version
+        run: |
+          last=$(grep -E '^Version:' font/OcodoMonoDotZero-Thin.sfd | sed -E 's/^Version: ([0-9.]+)/\1/')
+
+          echo "version=$last" >> "$GITHUB_OUTPUT"
+
+      - name: Get latest release tag
+        id: latest_release
+        run: |
+          tag=$(git tag --sort=-version:refname | head -n 1)
+          echo "tag=$tag" >> GITHUB_OUTPUT
+
+      - name: Determine if version is new
+        id: check
+        run: |
+          if [ "${{ steps.latest_release.outputs.tag }}" = "" ] || [ "${{ steps.sfd_version.outputs.version }}" != "${{ steps.latest_release.outputs.tag }}" ]; then
+            echo "new_version=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "new_version=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Skip message
+        if: steps.check.outputs.new_version == 'false'
+        run: |
+          echo "🟢 Version ${{ steps.sfd_version.outputs.version }} already released. Skipping build."
+
+  build-and-release:
+    needs: version-check
+    if: needs.version-check.outputs.should_build == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - uses: tecolicom/actions-use-apt-tools@v1
+        with:
+          tools: fontforge python3-fontforge unzip curl woff2 woff-tools
+          method: timestamp
+
+      - name: Build TTF from SFD
+        run: |
+          for weight in Thin; do
+            for font_type in ttf woff2; do
+              fontforge -c "import fontforge as ff; font = ff.open('./font/OcodoMonoDotZero-$weight.sfd'); font.generate('OcodoMonoDotZero-$weight.$font_type')"
+            done
+          done
+
+      - name: Download and unzip Nerd Font Patcher
+        run: |
+          curl -L -o FontPatcher.zip https://raw.githubusercontent.com/ryanoasis/nerd-fonts/refs/heads/master/FontPatcher.zip
+          unzip -o FontPatcher.zip -d ./fontpatcher
+
+      - name: Patch font with Nerd Fonts and Generate Woff2 copies
+        run: |
+          for weight in Thin; do
+            fontforge --script ./fontpatcher/font-patcher --complete OcodoMonoDotZero-$weight.ttf | grep -E -v "[%╢█░╟\d]"
+            ls -l *ttf
+            fontforge -c "import fontforge as ff;font = ff.open('OcodoMonoDotZeroNerdFont-$weight.ttf');font.generate('OcodoMonoDotZeroNerdFont-$weight.woff2')"
+            ls -l *woff2
+          done
+
+      - name: Summary update
+        run: |
+          cat <<EOD | tee -a $GITHUB_STEP_SUMMARY
+          # OcodoMonoDotZero Font Build Summary
+
+          \`\`\`sh
+          $(ls -lah *{ttf,woff2})
+          \`\`\`
+          EOD
+
+      - name: Move fonts into place
+        run: |
+          mkdir -p dist
+          mv *.ttf *.woff2 dist/
+
+      - name: Zip Fonts for release
+        run: |
+          cd dist
+          zip "../OcodoMonoDotZero-NerdFont.zip" ./*
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: "Ocodo Mono Dot Zero ${{ needs.version-check.outputs.version }}"
+          tag_name: ${{ needs.version-check.outputs.version }}
+          draft: false
+          body: |
+            # OcodoMonoDotZero / OcodoMonoDotZero NerdFont
+
+            OcodoMonoDotZero: A minimalist, monospaced font inspired by IBM, DEC and DIN
+            designed for terminal / coding use:
+
+            ### Weights:
+
+            - Thin - ultrathin / hairline, too thin for some users.
+
+            > Good on macOS, Linux and Windows
+            > Available as ttf and woff2
+          files: |
+            OcodoMonoDotZero-NerdFont.zip
+            dist/*.ttf
+            dist/*.woff2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

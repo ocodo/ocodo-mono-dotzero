@@ -19,7 +19,7 @@ jobs:
       - name: Extract version from SFD
         id: sfd_version
         run: |
-          last=$(grep -E '^Version:' font/OcodoMonoDotZero-Thin.sfd | sed -E 's/^Version: ([0-9.]+)/\1/')
+          last=$(grep -E '^Version:' font/OcodoMono-DotZero-Thin.sfd | sed -E 's/^Version: ([0-9.]+)/\1/')
 
           echo "version=$last" >> "$GITHUB_OUTPUT"
 
@@ -60,7 +60,7 @@ jobs:
         run: |
           for weight in Thin; do
             for font_type in ttf woff2; do
-              fontforge -c "import fontforge as ff; font = ff.open('./font/OcodoMonoDotZero-$weight.sfd'); font.generate('OcodoMonoDotZero-$weight.$font_type')"
+              fontforge -c "import fontforge as ff; font = ff.open('./font/OcodoMono-DotZero-$weight.sfd'); font.generate('OcodoMono-DotZero-$weight.$font_type')"
             done
           done
 
@@ -72,16 +72,16 @@ jobs:
       - name: Patch font with Nerd Fonts and Generate Woff2 copies
         run: |
           for weight in Thin; do
-            fontforge --script ./fontpatcher/font-patcher --complete OcodoMonoDotZero-$weight.ttf | grep -E -v "[%╢█░╟\d]"
+            fontforge --script ./fontpatcher/font-patcher --complete OcodoMono-DotZero-$weight.ttf | grep -E -v "[%╢█░╟\d]"
             ls -l *ttf
-            fontforge -c "import fontforge as ff;font = ff.open('OcodoMonoDotZeroNerdFont-$weight.ttf');font.generate('OcodoMonoDotZeroNerdFont-$weight.woff2')"
+            fontforge -c "import fontforge as ff;font = ff.open('OcodoMono-DotZeroNerdFont-$weight.ttf');font.generate('OcodoMono-DotZeroNerdFont-$weight.woff2')"
             ls -l *woff2
           done
 
       - name: Summary update
         run: |
           cat <<EOD | tee -a $GITHUB_STEP_SUMMARY
-          # OcodoMonoDotZero Font Build Summary
+          # OcodoMono-DotZero Font Build Summary
 
           \`\`\`sh
           $(ls -lah *{ttf,woff2})
@@ -96,7 +96,7 @@ jobs:
       - name: Zip Fonts for release
         run: |
           cd dist
-          zip "../OcodoMonoDotZero-NerdFont.zip" ./*
+          zip "../OcodoMono-DotZero-NerdFont.zip" ./*
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v1
@@ -105,9 +105,9 @@ jobs:
           tag_name: ${{ needs.version-check.outputs.version }}
           draft: false
           body: |
-            # OcodoMonoDotZero / OcodoMonoDotZero NerdFont
+            # OcodoMono-DotZero / OcodoMono-DotZero NerdFont
 
-            OcodoMonoDotZero: A minimalist, monospaced font inspired by IBM, DEC and DIN
+            OcodoMono-DotZero: A minimalist, monospaced font inspired by IBM, DEC and DIN
             designed for terminal / coding use:
 
             ### Weights:
@@ -117,7 +117,7 @@ jobs:
             > Good on macOS, Linux and Windows
             > Available as ttf and woff2
           files: |
-            OcodoMonoDotZero-NerdFont.zip
+            OcodoMono-DotZero-NerdFont.zip
             dist/*.ttf
             dist/*.woff2
         env:

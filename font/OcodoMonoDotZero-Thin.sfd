@@ -4,7 +4,7 @@ FullName: OcodoMonoDotZero Thin
 FamilyName: OcodoMonoDotZero-Thin
 Weight: Thin
 Copyright: Ocodo/Jason Milkins ocodo.github.io
-Version: 1.40
+Version: 1.41
 ItalicAngle: 0
 UnderlinePosition: -124
 UnderlineWidth: 25
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1364125971
-ModificationTime: 1752060985
+ModificationTime: 1752073654
 PfmFamily: 17
 TTFWeight: 100
 TTFWidth: 5
@@ -54,11 +54,678 @@ OS2StrikeYSize: 25
 OS2StrikeYPos: 250
 OS2CapHeight: 696
 OS2XHeight: 495
-OS2Vendor: 'ocdo'
+OS2Vendor: 'OCDO'
 OS2CodePages: 00000093.00000000
 OS2UnicodeRanges: 800000bf.5000204a.00000000.00000000
 MarkAttachClasses: 1
 DEI: 91125
+TtTable: prep
+PUSHW_1
+ 511
+SCANCTRL
+PUSHB_1
+ 1
+SCANTYPE
+SVTCA[y-axis]
+MPPEM
+PUSHB_1
+ 8
+LT
+IF
+PUSHB_2
+ 1
+ 1
+INSTCTRL
+EIF
+PUSHB_2
+ 70
+ 6
+CALL
+IF
+POP
+PUSHB_1
+ 16
+EIF
+MPPEM
+PUSHB_1
+ 20
+GT
+IF
+POP
+PUSHB_1
+ 128
+EIF
+SCVTCI
+PUSHB_1
+ 6
+CALL
+NOT
+IF
+EIF
+PUSHB_1
+ 20
+CALL
+EndTTInstrs
+TtTable: fpgm
+PUSHB_1
+ 0
+FDEF
+PUSHB_1
+ 0
+SZP0
+MPPEM
+PUSHB_1
+ 42
+LT
+IF
+PUSHB_1
+ 74
+SROUND
+EIF
+PUSHB_1
+ 0
+SWAP
+MIAP[rnd]
+RTG
+PUSHB_1
+ 6
+CALL
+IF
+RTDG
+EIF
+MPPEM
+PUSHB_1
+ 42
+LT
+IF
+RDTG
+EIF
+DUP
+MDRP[rp0,rnd,grey]
+PUSHB_1
+ 1
+SZP0
+MDAP[no-rnd]
+RTG
+ENDF
+PUSHB_1
+ 1
+FDEF
+DUP
+MDRP[rp0,min,white]
+PUSHB_1
+ 12
+CALL
+ENDF
+PUSHB_1
+ 2
+FDEF
+MPPEM
+GT
+IF
+RCVT
+SWAP
+EIF
+POP
+ENDF
+PUSHB_1
+ 3
+FDEF
+ROUND[Black]
+RTG
+DUP
+PUSHB_1
+ 64
+LT
+IF
+POP
+PUSHB_1
+ 64
+EIF
+ENDF
+PUSHB_1
+ 4
+FDEF
+PUSHB_1
+ 6
+CALL
+IF
+POP
+SWAP
+POP
+ROFF
+IF
+MDRP[rp0,min,rnd,black]
+ELSE
+MDRP[min,rnd,black]
+EIF
+ELSE
+MPPEM
+GT
+IF
+IF
+MIRP[rp0,min,rnd,black]
+ELSE
+MIRP[min,rnd,black]
+EIF
+ELSE
+SWAP
+POP
+PUSHB_1
+ 5
+CALL
+IF
+PUSHB_1
+ 70
+SROUND
+EIF
+IF
+MDRP[rp0,min,rnd,black]
+ELSE
+MDRP[min,rnd,black]
+EIF
+EIF
+EIF
+RTG
+ENDF
+PUSHB_1
+ 5
+FDEF
+GFV
+NOT
+AND
+ENDF
+PUSHB_1
+ 6
+FDEF
+PUSHB_2
+ 34
+ 1
+GETINFO
+LT
+IF
+PUSHB_1
+ 32
+GETINFO
+NOT
+NOT
+ELSE
+PUSHB_1
+ 0
+EIF
+ENDF
+PUSHB_1
+ 7
+FDEF
+PUSHB_2
+ 36
+ 1
+GETINFO
+LT
+IF
+PUSHB_1
+ 64
+GETINFO
+NOT
+NOT
+ELSE
+PUSHB_1
+ 0
+EIF
+ENDF
+PUSHB_1
+ 8
+FDEF
+SRP2
+SRP1
+DUP
+IP
+MDAP[rnd]
+ENDF
+PUSHB_1
+ 9
+FDEF
+DUP
+RDTG
+PUSHB_1
+ 6
+CALL
+IF
+MDRP[rnd,grey]
+ELSE
+MDRP[min,rnd,black]
+EIF
+DUP
+PUSHB_1
+ 3
+CINDEX
+MD[grid]
+SWAP
+DUP
+PUSHB_1
+ 4
+MINDEX
+MD[orig]
+PUSHB_1
+ 0
+LT
+IF
+ROLL
+NEG
+ROLL
+SUB
+DUP
+PUSHB_1
+ 0
+LT
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+ROLL
+ROLL
+SUB
+DUP
+PUSHB_1
+ 0
+GT
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+EIF
+RTG
+ENDF
+PUSHB_1
+ 10
+FDEF
+PUSHB_1
+ 6
+CALL
+IF
+POP
+SRP0
+ELSE
+SRP0
+POP
+EIF
+ENDF
+PUSHB_1
+ 11
+FDEF
+DUP
+MDRP[rp0,white]
+PUSHB_1
+ 12
+CALL
+ENDF
+PUSHB_1
+ 12
+FDEF
+DUP
+MDAP[rnd]
+PUSHB_1
+ 7
+CALL
+NOT
+IF
+DUP
+DUP
+GC[orig]
+SWAP
+GC[cur]
+SUB
+ROUND[White]
+DUP
+IF
+DUP
+ABS
+DIV
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+POP
+EIF
+ENDF
+PUSHB_1
+ 13
+FDEF
+SRP2
+SRP1
+DUP
+DUP
+IP
+MDAP[rnd]
+DUP
+ROLL
+DUP
+GC[orig]
+ROLL
+GC[cur]
+SUB
+SWAP
+ROLL
+DUP
+ROLL
+SWAP
+MD[orig]
+PUSHB_1
+ 0
+LT
+IF
+SWAP
+PUSHB_1
+ 0
+GT
+IF
+PUSHB_1
+ 64
+SHPIX
+ELSE
+POP
+EIF
+ELSE
+SWAP
+PUSHB_1
+ 0
+LT
+IF
+PUSHB_1
+ 64
+NEG
+SHPIX
+ELSE
+POP
+EIF
+EIF
+ENDF
+PUSHB_1
+ 14
+FDEF
+PUSHB_1
+ 6
+CALL
+IF
+RTDG
+MDRP[rp0,rnd,white]
+RTG
+POP
+POP
+ELSE
+DUP
+MDRP[rp0,rnd,white]
+ROLL
+MPPEM
+GT
+IF
+DUP
+ROLL
+SWAP
+MD[grid]
+DUP
+PUSHB_1
+ 0
+NEQ
+IF
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+POP
+POP
+EIF
+EIF
+ENDF
+PUSHB_1
+ 15
+FDEF
+SWAP
+DUP
+MDRP[rp0,rnd,white]
+DUP
+MDAP[rnd]
+PUSHB_1
+ 7
+CALL
+NOT
+IF
+SWAP
+DUP
+IF
+MPPEM
+GTEQ
+ELSE
+POP
+PUSHB_1
+ 1
+EIF
+IF
+ROLL
+PUSHB_1
+ 4
+MINDEX
+MD[grid]
+SWAP
+ROLL
+SWAP
+DUP
+ROLL
+MD[grid]
+ROLL
+SWAP
+SUB
+SHPIX
+ELSE
+POP
+POP
+POP
+POP
+EIF
+ELSE
+POP
+POP
+POP
+POP
+POP
+EIF
+ENDF
+PUSHB_1
+ 16
+FDEF
+DUP
+MDRP[rp0,min,white]
+PUSHB_1
+ 18
+CALL
+ENDF
+PUSHB_1
+ 17
+FDEF
+DUP
+MDRP[rp0,white]
+PUSHB_1
+ 18
+CALL
+ENDF
+PUSHB_1
+ 18
+FDEF
+DUP
+MDAP[rnd]
+PUSHB_1
+ 7
+CALL
+NOT
+IF
+DUP
+DUP
+GC[orig]
+SWAP
+GC[cur]
+SUB
+ROUND[White]
+ROLL
+DUP
+GC[orig]
+SWAP
+GC[cur]
+SWAP
+SUB
+ROUND[White]
+ADD
+DUP
+IF
+DUP
+ABS
+DIV
+SHPIX
+ELSE
+POP
+POP
+EIF
+ELSE
+POP
+POP
+EIF
+ENDF
+PUSHB_1
+ 19
+FDEF
+DUP
+ROLL
+DUP
+ROLL
+SDPVTL[orthog]
+DUP
+PUSHB_1
+ 3
+CINDEX
+MD[orig]
+ABS
+SWAP
+ROLL
+SPVTL[orthog]
+PUSHB_1
+ 32
+LT
+IF
+ALIGNRP
+ELSE
+MDRP[grey]
+EIF
+ENDF
+PUSHB_1
+ 20
+FDEF
+PUSHB_4
+ 0
+ 64
+ 1
+ 64
+WS
+WS
+SVTCA[x-axis]
+MPPEM
+PUSHW_1
+ 4096
+MUL
+SVTCA[y-axis]
+MPPEM
+PUSHW_1
+ 4096
+MUL
+DUP
+ROLL
+DUP
+ROLL
+NEQ
+IF
+DUP
+ROLL
+DUP
+ROLL
+GT
+IF
+SWAP
+DIV
+DUP
+PUSHB_1
+ 0
+SWAP
+WS
+ELSE
+DIV
+DUP
+PUSHB_1
+ 1
+SWAP
+WS
+EIF
+DUP
+PUSHB_1
+ 64
+GT
+IF
+PUSHB_3
+ 0
+ 32
+ 0
+RS
+MUL
+WS
+PUSHB_3
+ 1
+ 32
+ 1
+RS
+MUL
+WS
+PUSHB_1
+ 32
+MUL
+PUSHB_1
+ 25
+NEG
+JMPR
+POP
+EIF
+ELSE
+POP
+POP
+EIF
+ENDF
+PUSHB_1
+ 21
+FDEF
+PUSHB_1
+ 1
+RS
+MUL
+SWAP
+PUSHB_1
+ 0
+RS
+MUL
+SWAP
+ENDF
+EndTTInstrs
+ShortTable: cvt  5
+  -200
+  0
+  494
+  696
+  722
+EndShort
 ShortTable: maxp 16
   1
   0
@@ -68,16 +735,16 @@ ShortTable: maxp 16
   0
   0
   2
-  0
   1
-  1
+  2
+  22
   0
-  64
+  256
   0
   0
   0
 EndShort
-LangName: 1033 "" "" "" "" "" "1.400" "" "OcodoMonoDotZero is a trademark of Ocodo" "Ocodo" "Jason Milkins" "" "https://ocodo.github.io/ocodo-mono" "https://ocodo.github.io/ocodo-mono" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded,+AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "OcodoMonoDotZero" "Thin" "" "" "" "OcodoMonoDotZero" "Thin"
+LangName: 1033 "" "" "" "" "" "1.41" "" "OcodoMonoDotZero is a trademark of Ocodo" "Ocodo" "Jason Milkins" "" "https://ocodo.github.io/ocodo-mono" "https://ocodo.github.io/ocodo-mono" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded,+AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "OcodoMonoDotZero" "Thin" "" "" "" "OcodoMonoDotZero" "Thin"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -85,7 +752,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 25 8
+WinInfo: 0 25 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 576716 288358 192238 517997 1048576 192238 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -424,48 +1091,46 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-349.708007812 -66.5830078125 m 5,0,1
- 327 -55 327 -55 309.540348525 -38.0527493126 c 4,2,3
- 256 14 256 14 256 111 c 6,4,5
- 256 111 256 111 256 495 c 6,6,7
- 256 592 256 592 310.352918973 644.358357318 c 4,8,9
- 327 661 327 661 349.166015625 672.116210938 c 5,10,11
- 335.674804688 692.196289062 335.674804688 692.196289062 335.674804688 692.196289062 c 5,12,13
- 311 679 311 679 291.062355181 660.076587533 c 4,14,15
- 230 601 230 601 230 497 c 6,16,17
- 230 497 230 497 230 116 c 6,18,19
- 230 6 230 6 288.626624793 -53.1193813854 c 4,20,21
- 310 -75 310 -75 338.700195312 -88.599609375 c 5,22,23
- 338.700195312 -88.599609375 338.700195312 -88.599609375 349.708007812 -66.5830078125 c 5,0,1
-338.739257812 666.428710938 m 1036,24,-1
+349.708007812 -86.5830078125 m 1,0,1
+ 327 -75 327 -75 309.540039062 -58.052734375 c 0,2,3
+ 256 -6 256 -6 256 91 c 2,4,5
+ 256 91 256 91 256 495 c 2,6,7
+ 256 592 256 592 310.352918973 644.358357318 c 0,8,9
+ 327 661 327 661 349.166015625 672.116210938 c 1,10,11
+ 335.674804688 692.196289062 335.674804688 692.196289062 335.674804688 692.196289062 c 1,12,13
+ 311 679 311 679 291.062355181 660.076587533 c 0,14,15
+ 230 601 230 601 230 497 c 2,16,17
+ 230 497 230 497 230 96 c 2,18,19
+ 230 -14 230 -14 288.626953125 -73.119140625 c 0,20,21
+ 310 -95 310 -95 338.700195312 -108.599609375 c 1,22,23
+ 338.700195312 -108.599609375 338.700195312 -108.599609375 349.708007812 -86.5830078125 c 1,0,1
+338.739257812 666.428710938 m 1032,24,-1
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: parenright
 Encoding: 41 41 12
-Width: 550
+Width: 589
 GlyphClass: 2
 Flags: W
 LayerCount: 2
 Fore
 SplineSet
-193 -66.5830078125 m 1,0,1
- 215.708007812 -55 215.708007812 -55 233.16796875 -38.052734375 c 0,2,3
- 286.708007812 14 286.708007812 14 286.708007812 111 c 2,4,5
- 286.708007812 111 286.708007812 111 286.708007812 495 c 2,6,7
- 286.708007812 592 286.708007812 592 232.35546875 644.358398438 c 0,8,9
- 215.708007812 661 215.708007812 661 193.541992188 672.116210938 c 1,10,11
- 207.033203125 692.196289062 207.033203125 692.196289062 207.033203125 692.196289062 c 1,12,13
- 231.708007812 679 231.708007812 679 251.645507812 660.076171875 c 0,14,15
- 312.708007812 601 312.708007812 601 312.708007812 497 c 2,16,17
- 312.708007812 497 312.708007812 497 312.708007812 116 c 2,18,19
- 312.708007812 6 312.708007812 6 254.081054688 -53.119140625 c 0,20,21
- 232.708007812 -75 232.708007812 -75 204.0078125 -88.599609375 c 1,22,23
- 204.0078125 -88.599609375 204.0078125 -88.599609375 193 -66.5830078125 c 1,0,1
-203.96875 666.428710938 m 1032,24,-1
+230 -86.5830078125 m 1,0,1
+ 252.708007812 -75 252.708007812 -75 270.16796875 -58.052734375 c 0,2,3
+ 323.708007812 -6 323.708007812 -6 323.708007812 91 c 2,4,5
+ 323.708007812 91 323.708007812 91 323.708007812 495 c 2,6,7
+ 323.708007812 592 323.708007812 592 269.35546875 644.358398438 c 0,8,9
+ 252.708007812 661 252.708007812 661 230.541992188 672.116210938 c 1,10,11
+ 244.033203125 692.196289062 244.033203125 692.196289062 244.033203125 692.196289062 c 1,12,13
+ 268.708007812 679 268.708007812 679 288.645507812 660.076171875 c 0,14,15
+ 349.708007812 601 349.708007812 601 349.708007812 497 c 2,16,17
+ 349.708007812 497 349.708007812 497 349.708007812 96 c 2,18,19
+ 349.708007812 -14 349.708007812 -14 291.081054688 -73.119140625 c 0,20,21
+ 269.708007812 -95 269.708007812 -95 241.0078125 -108.599609375 c 1,22,23
+ 241.0078125 -108.599609375 241.0078125 -108.599609375 230 -86.5830078125 c 1,0,1
+240.96875 666.428710938 m 1032,24,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: asterisk
@@ -1081,59 +1746,104 @@ Width: 740
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+Back
+SplineSet
+629 10 m 1,0,-1
+ 597 10 l 25,1,2
+ 598 10 598 10 598 58 c 1,3,4
+ 544 8 544 8 492 8 c 2,5,6
+ 492 8 492 8 377 8 c 0,7,8
+ 342 8 342 8 283 65 c 0,9,10
+ 245 101 245 101 245 208 c 2,11,12
+ 245 208 245 208 245 293 c 128,-1,13
+ 245 378 245 378 293 438 c 128,-1,14
+ 341 498 341 498 403 498 c 2,15,16
+ 403 498 403 498 491 498 c 0,17,18
+ 553 498 553 498 592 441 c 0,19,20
+ 596 435 596 435 597 435 c 144,-1,21
+ 598 435 598 435 598 498 c 0,22,23
+ 599 586 599 586 565 620 c 0,24,25
+ 519 665 519 665 438 665 c 2,26,27
+ 438 665 438 665 308 665 c 0,28,29
+ 229 665 229 665 184 619 c 0,30,31
+ 160 594 160 594 151 567.5 c 0,32,33
+ 142 542 142 542 142 520 c 2,34,35
+ 142 520 142 520 142 161 c 0,36,37
+ 142 112 142 112 153 87.5 c 128,-1,38
+ 164 63 164 63 194 39 c 1,39,40
+ 194 39 194 39 176 7 c 1,41,42
+ 140 40 140 40 125.5 67.5 c 128,-1,43
+ 111 95 111 95 111 160 c 2,44,45
+ 111 160 111 160 111 496 c 0,46,47
+ 111 585 111 585 165.5 640.5 c 128,-1,48
+ 220 696 220 696 302 696 c 2,49,50
+ 302 696 302 696 451 696 c 0,51,52
+ 532 696 532 696 591 639 c 0,53,54
+ 629 603 629 603 629 496 c 2,55,56
+ 629 496 629 496 629 10 c 1024,57,-1
+598 308 m 0,58,59
+ 598 391 598 391 566 422 c 0,60,61
+ 520 467 520 467 478 467 c 2,62,63
+ 478 467 478 467 402 467 c 0,64,65
+ 363 467 363 467 319 421 c 0,66,67
+ 295 396 295 396 285.5 368 c 128,-1,68
+ 276 340 276 340 276 320 c 2,69,70
+ 276 320 276 320 276 218.5 c 128,-1,71
+ 276 117 276 117 309 84 c 0,72,73
+ 355 39 355 39 386 39 c 2,74,75
+ 386 39 386 39 494 39 c 0,76,77
+ 542 39 542 39 597 95 c 1,78,79
+ 597 95 597 95 598 308 c 1048,80,-1
+EndSplineSet
 Fore
 SplineSet
-289 696 m 2,0,1
- 207 696 207 696 150.133789062 637.995117188 c 0,2,3
- 98 585 98 585 98 496 c 2,4,-1
- 98 160 l 2,5,6
- 98 95 98 95 113.865234375 64.708984375 c 0,7,8
- 127 40 127 40 163.235351562 7.2490234375 c 1,9,-1
- 180.810546875 39.1123046875 l 1,10,11
- 151 63 151 63 140.227539062 87.318359375 c 0,12,13
- 129 112 129 112 129 161 c 2,14,-1
- 129 498 l 2,15,16
- 129 541 129 541 138.120117188 567.482421875 c 0,17,18
- 147 594 147 594 170.7734375 618.909179688 c 0,19,20
- 216 665 216 665 295 665 c 2,21,-1
- 425 665 l 2,22,23
- 506 665 506 665 551.973632812 620.1640625 c 0,24,25
- 585 587 585 587 585 498 c 2,26,-1
- 585 389.856910426 l 1,27,-1
- 567.102270415 412.868277036 l 2,28,29
- 526 466 526 466 441 466 c 0,30,31
- 376 466 376 466 333.069335938 422.930664062 c 0,32,33
- 280 370 280 370 280 238 c 0,34,35
- 280 96 280 96 334.987304688 43.15234375 c 0,36,37
- 376 4 376 4 439 4 c 0,38,39
- 520.183910147 4 520.183910147 4 568.175605874 64.224873068 c 2,40,-1
- 586 86.5927402061 l 1,41,-1
- 586 58 l 1,42,-1
- 586 10 l 1,43,-1
- 616 10 l 1,44,-1
- 616 496 l 2,45,46
- 616 603 616 603 578 639 c 0,47,48
- 519 696 519 696 438 696 c 2,49,-1
- 289 696 l 2,0,1
-452 438 m 0,50,51
- 479 438 479 438 520.236771044 415.02309426 c 0,52,53
- 548 399 548 399 561.216111714 369.493695301 c 0,54,55
- 575 340 575 340 579.824531589 308.888391615 c 0,56,57
- 585 278 585 278 585 238 c 128,-1,58
- 585 198 585 198 579.821661432 167.598366778 c 0,59,60
- 575 137 575 137 561.213241558 107.499990355 c 0,61,62
- 548 78 548 78 520.236771044 61.9769057404 c 0,63,64
- 475 37 475 37 449 37 c 0,65,66
- 407 37 407 37 370.795898438 56.955078125 c 0,67,68
- 350 69 350 69 331.779296875 107.516601562 c 0,69,70
- 318 137 318 137 313.661132812 167.677734375 c 0,71,72
- 309 198 309 198 309 238.5 c 128,-1,73
- 309 279 309 279 313.661132812 309.322265625 c 0,74,75
- 320 348 320 348 331.779296875 369.483398438 c 0,76,77
- 352 403 352 403 383.795898438 422.044921875 c 0,78,79
- 412 438 412 438 452 438 c 0,50,51
+629 10 m 1,0,-1
+ 597 10 l 25,1,2
+ 598 10 598 10 598 58 c 1,3,4
+ 544 8 544 8 492 8 c 2,5,6
+ 492 8 492 8 377 8 c 0,7,8
+ 342 8 342 8 283 65 c 0,9,10
+ 245 101 245 101 245 208 c 2,11,12
+ 245 208 245 208 245 293 c 128,-1,13
+ 245 378 245 378 293 438 c 128,-1,14
+ 341 498 341 498 403 498 c 2,15,16
+ 403 498 403 498 491 498 c 0,17,18
+ 553 498 553 498 592 441 c 0,19,20
+ 596 435 596 435 597 435 c 144,-1,21
+ 598 435 598 435 598 498 c 0,22,23
+ 599 586 599 586 565 620 c 0,24,25
+ 519 665 519 665 438 665 c 2,26,27
+ 438 665 438 665 308 665 c 0,28,29
+ 229 665 229 665 184 619 c 0,30,31
+ 160 594 160 594 151 567.5 c 0,32,33
+ 142 542 142 542 142 520 c 2,34,35
+ 142 520 142 520 142 161 c 0,36,37
+ 142 112 142 112 153 87.5 c 128,-1,38
+ 164 63 164 63 194 39 c 1,39,40
+ 194 39 194 39 176 7 c 1,41,42
+ 140 40 140 40 125.5 67.5 c 128,-1,43
+ 111 95 111 95 111 160 c 2,44,45
+ 111 160 111 160 111 496 c 0,46,47
+ 111 585 111 585 165.5 640.5 c 128,-1,48
+ 220 696 220 696 302 696 c 2,49,50
+ 302 696 302 696 451 696 c 0,51,52
+ 532 696 532 696 591 639 c 0,53,54
+ 629 603 629 603 629 496 c 2,55,56
+ 629 496 629 496 629 10 c 1,0,-1
+598 308 m 16,57,58
+ 598 391 598 391 566 422 c 0,59,60
+ 520 467 520 467 478 467 c 2,61,62
+ 478 467 478 467 402 467 c 0,63,64
+ 363 467 363 467 319 421 c 0,65,66
+ 295 396 295 396 285.5 368 c 128,-1,67
+ 276 340 276 340 276 320 c 2,68,69
+ 276 320 276 320 276 218.5 c 128,-1,70
+ 276 117 276 117 309 84 c 0,71,72
+ 355 39 355 39 386 39 c 2,73,74
+ 386 39 386 39 494 39 c 0,75,76
+ 534 39 534 39 597 103 c 5,77,78
+ 597 103 597 103 598 308 c 16,57,58
 EndSplineSet
-Validated: 9
 EndChar
 
 StartChar: A

@@ -4,7 +4,7 @@ FullName: OcodoMonoDotZero Thin
 FamilyName: OcodoMonoDotZero-Thin
 Weight: Thin
 Copyright: Ocodo/Jason Milkins ocodo.github.io
-Version: 1.45
+Version: 1.46
 ItalicAngle: 0
 UnderlinePosition: -124
 UnderlineWidth: 25
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1364125971
-ModificationTime: 1752080703
+ModificationTime: 1752147695
 PfmFamily: 17
 TTFWeight: 100
 TTFWidth: 5
@@ -744,7 +744,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "" "" "1.45" "" "OcodoMonoDotZero is a trademark of Ocodo" "Ocodo" "Jason Milkins" "" "https://ocodo.github.io/ocodo-mono" "https://ocodo.github.io/ocodo-mono" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded,+AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "OcodoMonoDotZero" "Thin" "" "" "" "OcodoMonoDotZero" "Thin"
+LangName: 1033 "" "" "" "" "" "1.46" "" "OcodoMonoDotZero is a trademark of Ocodo" "Ocodo" "Jason Milkins" "" "https://ocodo.github.io/ocodo-mono" "https://ocodo.github.io/ocodo-mono" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded,+AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "OcodoMonoDotZero" "Thin" "" "" "" "OcodoMonoDotZero" "Thin"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 UnicodeInterp: none
@@ -752,7 +752,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 25 8
+WinInfo: 0 25 8
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 576716 288358 192238 517997 1048576 192238 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -826,6 +826,8 @@ Encoding: 33 33 4
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 41<257 293> 676 20G<262 291>
+VStem: 257 36<0 41 376.545 696> 268 16<194 696>
 LayerCount: 2
 Fore
 SplineSet
@@ -848,6 +850,8 @@ Encoding: 34 34 5
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 495 201<229 243 304 318>
+VStem: 221 30<520.125 696> 229 14<495 670.875> 296 30<520.125 696> 304 14<495 670.875>
 LayerCount: 2
 Fore
 SplineSet
@@ -870,6 +874,7 @@ Encoding: 35 35 6
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<122 146.807 306 331.456> 228 18<55 155 178 337 359 464> 453 19<85 187 208 368 390 494> 675 20G<216.309 238 399.13 420>
 LayerCount: 2
 Fore
 SplineSet
@@ -916,6 +921,8 @@ Encoding: 36 36 7
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -2 24<173.129 226 317 361.742> 671 25<317 370.391>
+VStem: 86 26<461.53 592.302> 226 21<-88 -1.14673 22 368.22 392 669 692.218 764> 296 21<-88 0.166016 23 339 360.886 671 694.773 764> 455 26<109.421 250.175>
 LayerCount: 2
 Fore
 SplineSet
@@ -970,6 +977,8 @@ Encoding: 37 37 8
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -11 24<359.826 455.095> 281 23<359.826 452.924> 391 24<101.826 197.095> 683 23<101.826 194.924>
+VStem: 38 24<454.308 644.385> 233 24<452.332 645.558> 296 24<52.3076 242.385> 491 24<50.332 243.558>
 LayerCount: 2
 Fore
 SplineSet
@@ -1031,6 +1040,8 @@ Encoding: 38 38 9
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -6 23<155 287.602> 680 26<188.53 322.993>
+VStem: 36 26<99.8969 226.72> 105 28<519.096 624.292> 463 26<206.051 288>
 LayerCount: 2
 Fore
 SplineSet
@@ -1071,6 +1082,8 @@ Encoding: 39 39 10
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 495 201<269 283>
+VStem: 261 30<520.125 696> 269 14<495 670.875>
 LayerCount: 2
 Fore
 SplineSet
@@ -1088,6 +1101,7 @@ Encoding: 40 40 11
 Width: 589
 GlyphClass: 2
 Flags: W
+VStem: 230 26<-2.42326 86 525 606.755>
 LayerCount: 2
 Fore
 SplineSet
@@ -1113,6 +1127,8 @@ Encoding: 41 41 12
 Width: 589
 GlyphClass: 2
 Flags: W
+HStem: 702.196 20G<244.033 256.371>
+VStem: 323.708 26<-2.42326 606.755>
 LayerCount: 2
 Fore
 SplineSet
@@ -1138,6 +1154,8 @@ Encoding: 42 42 13
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 430 264
+VStem: 260 28<567 694>
 LayerCount: 2
 Fore
 SplineSet
@@ -1166,6 +1184,8 @@ Encoding: 43 43 14
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 261 24<75 263 286 474>
+VStem: 263 23<65 261 285 478>
 LayerCount: 2
 Fore
 SplineSet
@@ -1191,6 +1211,8 @@ Encoding: 44 44 15
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 48<218 229>
+VStem: 218 43<0 48>
 LayerCount: 2
 Fore
 SplineSet
@@ -1211,6 +1233,8 @@ Encoding: 45 45 16
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 253 26<149 400>
+VStem: 149 251<253 279>
 LayerCount: 2
 Fore
 SplineSet
@@ -1228,6 +1252,8 @@ Encoding: 46 46 17
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 47<212 253>
+VStem: 212 41<0 47>
 LayerCount: 2
 Fore
 SplineSet
@@ -1262,6 +1288,8 @@ Encoding: 48 48 19
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 27<210.658 324.198> 674 27<210.418 324.198>
+VStem: 72 27<136.908 557.83> 252 30<250 439> 434 27<137.77 557.98>
 LayerCount: 2
 Fore
 SplineSet
@@ -1301,6 +1329,8 @@ Encoding: 49 49 20
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<276 301> 676 20G<237.651 301>
+VStem: 276 25<0 666>
 LayerCount: 2
 Fore
 SplineSet
@@ -1325,6 +1355,8 @@ Encoding: 50 50 21
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 24<122 460> 675 24<215.977 345.457>
+VStem: 430 27<463.289 596.058>
 LayerCount: 2
 Fore
 SplineSet
@@ -1355,6 +1387,8 @@ Encoding: 51 51 22
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -6 21<195.437 323.198> 349 24<241 334.385> 681 21<206.283 324.435>
+VStem: 422 26<455.236 587.969> 434 25<115.368 257.745>
 LayerCount: 2
 Fore
 SplineSet
@@ -1399,6 +1433,8 @@ Encoding: 52 52 23
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<390 415> 115 24<96 390 415 478> 676 20G<314.968 353>
+VStem: 390 25<0 115 139 359>
 LayerCount: 2
 Fore
 SplineSet
@@ -1427,6 +1463,8 @@ Encoding: 53 53 24
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -6 21<204.551 332.678> 437 21<217.915 335.935> 672 24<128 429>
+VStem: 105 23<396 672> 428 23<107.516 345.562>
 LayerCount: 2
 Fore
 SplineSet
@@ -1463,6 +1501,8 @@ Encoding: 54 54 25
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -6 20<215.872 330.2> 363 21<215.507 334.077> 676 20G<307.975 344>
+VStem: 94 23<116.579 260.711> 433 23<119.679 264.447>
 LayerCount: 2
 Fore
 SplineSet
@@ -1497,6 +1537,7 @@ Encoding: 55 55 26
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<170 204.708> 672 24<93 431>
 LayerCount: 2
 Fore
 SplineSet
@@ -1517,6 +1558,8 @@ Encoding: 56 56 27
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -6 19<219.626 330.374> 350 20<215.464 334.536> 681 19<220.054 330.485>
+VStem: 80 23<122.996 246.147> 94 23<459.001 585.828> 433 23<459.243 585.113> 447 23<122.996 246.653>
 LayerCount: 2
 Fore
 SplineSet
@@ -1563,6 +1606,8 @@ Encoding: 57 57 28
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<206 242.025> 312 21<216.928 333.886> 683 19<221.634 331.161>
+VStem: 94 23<435.521 577.41> 433 23<435.289 577.337>
 LayerCount: 2
 Fore
 SplineSet
@@ -1597,6 +1642,8 @@ Encoding: 58 58 29
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 47<218 259> 325 47<218 259>
+VStem: 218 41<0 47 325 372>
 LayerCount: 2
 Fore
 SplineSet
@@ -1619,6 +1666,8 @@ Encoding: 59 59 30
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 48<218 229> 325 47<218 259>
+VStem: 218 43<0 48 325 372>
 LayerCount: 2
 Fore
 SplineSet
@@ -1664,6 +1713,7 @@ Encoding: 61 61 32
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 162 24<75 474> 331 23<75 474>
 LayerCount: 2
 Fore
 SplineSet
@@ -1706,6 +1756,8 @@ Encoding: 63 63 34
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 43<261 299> 680 22<220.754 342.432>
+VStem: 261 38<0 43> 265 25<149 272.454> 431 24<479.194 589.532>
 LayerCount: 2
 Fore
 SplineSet
@@ -1745,6 +1797,8 @@ Encoding: 64 64 35
 Width: 740
 GlyphClass: 2
 Flags: W
+HStem: 8 31<365.143 537.883> 467 31<376.699 527.504> 665 31<229.015 519.889>
+VStem: 111 31<79.1309 580.656> 265 31<113.031 380.715> 598 31<10.0117 58 89.7656 397.547 435.015 593.477>
 LayerCount: 2
 Back
 SplineSet
@@ -1851,6 +1905,7 @@ Encoding: 65 65 36
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<14 48.9714 499.143 536> 175 25<111 437> 676 20G<250.017 299.983>
 LayerCount: 2
 Fore
 SplineSet
@@ -1878,6 +1933,8 @@ Encoding: 66 66 37
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 24<81 382.675> 351 24<81 374.225> 672 24<81 368.174>
+VStem: 55 26<24 351 375 672> 467 26<461.733 586.288> 480 29<111.177 256.32>
 LayerCount: 2
 Fore
 SplineSet
@@ -1919,6 +1976,8 @@ Encoding: 67 67 38
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 23<215.069 371.941> 678 23<213.827 370.354>
+VStem: 60 26<134.472 557.83>
 LayerCount: 2
 Fore
 SplineSet
@@ -1952,6 +2011,8 @@ Encoding: 68 68 39
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 24<84 348.222> 672 24<84 346.803>
+VStem: 57 27<24 672> 485 26<169.615 529.48>
 LayerCount: 2
 Fore
 SplineSet
@@ -1981,6 +2042,8 @@ Encoding: 69 69 40
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 24<111 509> 354 24<111 445> 672 24<111 481>
+VStem: 84 27<24 354 378 672>
 LayerCount: 2
 Fore
 SplineSet
@@ -2006,6 +2069,8 @@ Encoding: 70 70 41
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<88 115> 342 23<115 447> 672 24<115 493>
+VStem: 88 27<0 342 365 672>
 LayerCount: 2
 Fore
 SplineSet
@@ -2029,6 +2094,8 @@ Encoding: 71 71 42
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 22<194.239 354.118> 318 24<323 486> 678 23<191.827 346.956>
+VStem: 38 26<136.908 557.83> 486 26<137.18 318>
 LayerCount: 2
 Fore
 SplineSet
@@ -2067,6 +2134,8 @@ Encoding: 72 72 43
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<46 72 479 505> 354 24<72 479> 676 20G<46 72 479 505>
+VStem: 46 26<0 354 378 696> 479 26<0 354 378 696>
 LayerCount: 2
 Fore
 SplineSet
@@ -2092,6 +2161,8 @@ Encoding: 73 73 44
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 23<222 262 288 328> 673 23<222 262 288 328>
+VStem: 222 106<0 23 673 696> 262 26<23 673>
 LayerCount: 2
 Fore
 SplineSet
@@ -2117,6 +2188,8 @@ Encoding: 74 74 45
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -6 25<140.22 290.389> 671 24<105 382>
+VStem: 382 26<110.682 671>
 LayerCount: 2
 Fore
 SplineSet
@@ -2142,6 +2215,8 @@ Encoding: 75 75 46
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<82 108 502.775 543> 676 20G<82 108 462.486 508>
+VStem: 82 26<0 180 219 696>
 LayerCount: 2
 Fore
 SplineSet
@@ -2167,6 +2242,8 @@ Encoding: 76 76 47
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 24<164 521> 676 20G<138 164>
+VStem: 138 26<24 696>
 LayerCount: 2
 Fore
 SplineSet
@@ -2186,6 +2263,8 @@ Encoding: 77 77 48
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<62 87 465 490> 676 20G<62 98.5517 455.448 490>
+VStem: 62 25<0 636> 465 25<0 636>
 LayerCount: 2
 Fore
 SplineSet
@@ -2215,6 +2294,8 @@ Encoding: 78 78 49
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<68 94 442.974 483> 676 20G<68 108.009 457 483>
+VStem: 68 26<0 653> 457 26<42 696>
 LayerCount: 2
 Fore
 SplineSet
@@ -2238,6 +2319,8 @@ Encoding: 79 79 50
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 24<193.856 357.757> 676 25<190.553 360.337>
+VStem: 40 27<136.908 557.83> 483 27<137.418 557.98>
 LayerCount: 2
 Fore
 SplineSet
@@ -2272,6 +2355,8 @@ Encoding: 80 80 51
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<80 107> 307 25<107 374.951> 672 24<107 368.024>
+VStem: 80 27<0 307 332 672> 475 29<429.034 577.547>
 LayerCount: 2
 Fore
 SplineSet
@@ -2302,6 +2387,8 @@ Encoding: 81 81 52
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 24<193.856 351.103> 676 25<190.553 360.337>
+VStem: 40 27<136.908 557.83> 483 27<147.486 557.98>
 LayerCount: 2
 Fore
 SplineSet
@@ -2342,6 +2429,8 @@ Encoding: 82 82 53
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<76 102 454.849 494> 331 25<102 297> 672 24<102 372.536>
+VStem: 76 26<0 331 356 672> 475 28<448.672 588.88>
 LayerCount: 2
 Fore
 SplineSet
@@ -2375,6 +2464,8 @@ Encoding: 83 83 54
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -6 24<168.064 353.005> 678 24<202.55 370.346>
+VStem: 70 27<465.304 590.543> 472 27<112.186 241.943>
 LayerCount: 2
 Fore
 SplineSet
@@ -2422,6 +2513,8 @@ Encoding: 84 84 55
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<264 289> 672 24<49 264 289 501>
+VStem: 264 25<0 672>
 LayerCount: 2
 Fore
 SplineSet
@@ -2443,6 +2536,8 @@ Encoding: 85 85 56
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 24<198.365 352.426> 676 20G<51 77 472 499>
+VStem: 51 26<145.616 696> 472 27<136.5 696>
 LayerCount: 2
 Fore
 SplineSet
@@ -2470,6 +2565,7 @@ Encoding: 86 86 57
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<254.736 295.264> 676 20G<43 74.2538 475.776 507>
 LayerCount: 2
 Fore
 SplineSet
@@ -2491,6 +2587,7 @@ Encoding: 87 87 58
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<104.672 138.545 414.455 448.328> 676 20G<26 53.292 499.708 527>
 LayerCount: 2
 Fore
 SplineSet
@@ -2520,6 +2617,7 @@ Encoding: 88 88 59
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<48 88.8919 461.108 502> 676 20G<63 103.656 446.344 487>
 LayerCount: 2
 Fore
 SplineSet
@@ -2545,6 +2643,8 @@ Encoding: 89 89 60
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<263 288> 676 20G<55 92.1837 458.869 495>
+VStem: 263 25<0 289>
 LayerCount: 2
 Fore
 SplineSet
@@ -2567,6 +2667,7 @@ Encoding: 90 90 61
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 24<95 482> 672 24<88 453>
 LayerCount: 2
 Fore
 SplineSet
@@ -2590,6 +2691,8 @@ Encoding: 91 91 62
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -121 23<238 339> 702 24<238 339>
+VStem: 211 27<-98 702>
 LayerCount: 2
 Fore
 SplineSet
@@ -2627,6 +2730,8 @@ Encoding: 93 93 64
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -121 23<211 312> 702 24<211 312>
+VStem: 312 26<-98 702>
 LayerCount: 2
 Fore
 SplineSet
@@ -2647,6 +2752,7 @@ Encoding: 94 94 65
 Width: 550
 GlyphClass: 2
 Flags: W
+VStem: 109 332
 LayerCount: 2
 Fore
 SplineSet
@@ -2684,6 +2790,8 @@ Encoding: 96 96 67
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 579 150
+VStem: 218 114
 LayerCount: 2
 Fore
 SplineSet
@@ -2701,6 +2809,8 @@ Encoding: 97 97 68
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 22<165.128 326.791> 0 21G<415 440> 246 22<154.214 415> 479 22<181.896 338.51>
+VStem: 60 25<78.5154 189.692> 415 25<0 60 80.5352 246 268 411.398>
 LayerCount: 2
 Fore
 SplineSet
@@ -2741,6 +2851,8 @@ Encoding: 98 98 69
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 21<220.607 338.732> 0 21G<92 117> 480 20<220.905 338.279> 701 20G<92 117>
+VStem: 92 25<0 101 141.448 350.277 390 721> 442 27<138.298 359.785>
 LayerCount: 2
 Fore
 SplineSet
@@ -2776,6 +2888,8 @@ Encoding: 99 99 70
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 21<254.79 385.89> 480 21<255.809 385.866>
+VStem: 108 25<144.782 345.643>
 LayerCount: 2
 Fore
 SplineSet
@@ -2803,6 +2917,8 @@ Encoding: 100 100 71
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 21<204.434 323.628> 0 21G<429 453> 479 21<206.632 325.357> 701 20G<429 453>
+VStem: 77 26<131.75 355.964> 429 24<0 102 147.537 346.881 395 721>
 LayerCount: 2
 Fore
 SplineSet
@@ -2848,6 +2964,8 @@ Encoding: 101 101 72
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 20<223.864 352.05> 251 21<105 443> 480 21<215.587 338.473>
+VStem: 80 23<146.809 251 272 340.531> 443 26<272 360.28>
 LayerCount: 2
 Fore
 SplineSet
@@ -2883,6 +3001,8 @@ Encoding: 102 102 73
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<243 268> 472 24<65 243 268 491> 710 26<328.846 481.308>
+VStem: 243 25<0 472 496 648.167>
 LayerCount: 2
 Fore
 SplineSet
@@ -2913,6 +3033,8 @@ Encoding: 103 103 74
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -204 22<189.365 321.373> -5 21<206.17 323.565> 479 22<205.875 326.561>
+VStem: 76 26<138.665 354.474> 429 24<-80.7566 107 152.225 348.128 396 495>
 LayerCount: 2
 Fore
 SplineSet
@@ -2954,6 +3076,8 @@ Encoding: 104 104 75
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<89 113 438 462> 478 22<221.563 352.116> 701 20G<89 113>
+VStem: 89 24<0 369.525 398 721> 438 24<0 395.606>
 LayerCount: 2
 Fore
 SplineSet
@@ -2984,6 +3108,8 @@ Encoding: 105 105 76
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 24<198 260 285 344> 471 24<197 260> 665 32<253 286>
+VStem: 253 33<665 697> 260 25<24 471>
 LayerCount: 2
 Fore
 SplineSet
@@ -3012,6 +3138,8 @@ Encoding: 106 106 77
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -204 23<130 222.157> 472 23<200 280> 666 31<275 309>
+VStem: 280 25<-121.918 472 666 697>
 LayerCount: 2
 Fore
 SplineSet
@@ -3041,6 +3169,8 @@ Encoding: 107 107 78
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<123 148 458.667 499> 475 20G<416.603 465> 701 20G<123 148>
+VStem: 123 25<0 149 183 721>
 LayerCount: 2
 Fore
 SplineSet
@@ -3066,21 +3196,22 @@ Encoding: 108 108 79
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 1.19434 22.8057<316.294 374> 698 24<233 240>
+VStem: 233 32<698 722> 240 25<68.6996 698>
 LayerCount: 2
 Fore
 SplineSet
 240 122 m 5,0,-1
  240 146 l 5,1,-1
- 240 146 l 5,2,-1
- 240 698 l 5,3,-1
- 233 698 l 5,4,-1
- 233 722 l 5,5,-1
- 265 722 l 5,6,-1
- 265 124 l 5,7,-1
- 265 124.495117188 l 4,8,9
- 264 25 264 25 374 24 c 5,10,-1
- 374 0 l 5,11,-1
- 365 1.1943359375 l 4,12,13
+ 240 698 l 5,2,-1
+ 233 698 l 5,3,-1
+ 233 722 l 5,4,-1
+ 265 722 l 5,5,-1
+ 265 124 l 5,6,-1
+ 265 124.495117188 l 4,7,8
+ 264 25 264 25 374 24 c 5,9,-1
+ 374 0 l 5,10,-1
+ 365 1.1943359375 l 4,11,12
  240 0 240 0 240 122 c 5,0,-1
 EndSplineSet
 Validated: 37
@@ -3091,6 +3222,8 @@ Encoding: 109 109 80
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<50 74 263 287 477 502> 478 22<133.872 216.776 348.776 434.525>
+VStem: 50 24<0 405.783 430 495> 263 24<0 420.263> 477 25<0 433.88>
 LayerCount: 2
 Fore
 SplineSet
@@ -3131,6 +3264,8 @@ Encoding: 110 110 81
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<88 112 437 461> 478 22<220.563 351.116>
+VStem: 88 24<0 369.525 398 495> 437 24<0 395.606>
 LayerCount: 2
 Fore
 SplineSet
@@ -3161,6 +3296,8 @@ Encoding: 111 111 82
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -6 21<211.239 337.555> 479 22<213.857 339.342>
+VStem: 77 25<141.075 350.585> 447 25<138.204 360.161>
 LayerCount: 2
 Fore
 SplineSet
@@ -3191,6 +3328,8 @@ Encoding: 112 112 83
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -200 21G<89 114> -4 21<217.849 336.089> 475 20G<89 114> 482 21<221.426 341.102>
+VStem: 89 25<-200 101 146.531 349.598 398 495> 440 25<145.209 360.751>
 LayerCount: 2
 Fore
 SplineSet
@@ -3232,6 +3371,8 @@ Encoding: 113 113 84
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -200 21G<431 456> -4 22<206.127 327.243> 475 20G<431 456> 482 21<209.415 325.604>
+VStem: 80 25<146.193 352.446> 431 25<-200 110 149.914 350.312 393 495>
 LayerCount: 2
 Fore
 SplineSet
@@ -3275,6 +3416,8 @@ Encoding: 114 114 85
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<178 202> 476 24<297.043 427.232>
+VStem: 178 24<0 377.226 402 495>
 LayerCount: 2
 Fore
 SplineSet
@@ -3300,6 +3443,8 @@ Encoding: 115 115 86
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 22<180.708 344.016> 479 22<205.509 360.125>
+VStem: 104 26<326.747 422.783> 428 26<78.324 177.275>
 LayerCount: 2
 Fore
 SplineSet
@@ -3343,6 +3488,8 @@ Encoding: 116 116 87
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 25<256.076 391.164> 473 22<139 176 201 424>
+VStem: 176 25<86.0911 473 495 635>
 LayerCount: 2
 Fore
 SplineSet
@@ -3375,6 +3522,8 @@ Encoding: 117 117 88
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 17<209.623 322.165> 475 20G<89 114 439 462>
+VStem: 89 25<100.892 495> 439 23<0 92 124.792 495>
 LayerCount: 2
 Fore
 SplineSet
@@ -3405,6 +3554,7 @@ Encoding: 118 118 89
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<254.591 296.368> 474 20G<79 114.304 435.783 471>
 LayerCount: 2
 Fore
 SplineSet
@@ -3426,6 +3576,7 @@ Encoding: 119 119 90
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<130.838 168.805 386.195 424.717> 475 20G<32 63.0444 483.408 513>
 LayerCount: 2
 Fore
 SplineSet
@@ -3455,6 +3606,7 @@ Encoding: 120 120 91
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<96 137.605 413.311 455> 475 20G<105 146.589 402.5 446>
 LayerCount: 2
 Fore
 SplineSet
@@ -3480,6 +3632,7 @@ Encoding: 121 121 92
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -201 23<99 181.615> 474 20G<74 109.215 434.911 469>
 LayerCount: 2
 Fore
 SplineSet
@@ -3508,6 +3661,7 @@ Encoding: 122 122 93
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21<126 444> 474 21<113 413>
 LayerCount: 2
 Fore
 SplineSet
@@ -3531,6 +3685,8 @@ Encoding: 123 123 94
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -122 17<304.479 384> 710 16<304.91 384>
+VStem: 186 25<299.371 310.685> 254 20<-70.8037 237.335 379.783 675.451>
 LayerCount: 2
 Fore
 SplineSet
@@ -3567,6 +3723,7 @@ Encoding: 124 124 95
 Width: 550
 GlyphClass: 2
 Flags: W
+VStem: 265 19<-162 716>
 LayerCount: 2
 Fore
 SplineSet
@@ -3584,6 +3741,8 @@ Encoding: 125 125 96
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -122 17<237 265.521> 710 16<237 265.09>
+VStem: 296 20<-70.8037 -8 138 237.335 379.783 471 612 675.451> 359 25<299.371 304 305 310.685>
 LayerCount: 2
 Fore
 SplineSet
@@ -3620,6 +3779,7 @@ Encoding: 126 126 97
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 227 28<303.171 391.086> 269 28<161.115 262.195>
 LayerCount: 2
 Fore
 SplineSet
@@ -3701,6 +3861,8 @@ Encoding: 163 163 100
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 24<103 471> 308 18<78 162 186 331> 680 19<221.1 339.164>
+VStem: 109 23<471.577 598.956> 164 22<189.822 308 326 371.007>
 LayerCount: 2
 Fore
 SplineSet
@@ -3741,6 +3903,8 @@ Encoding: 164 164 101
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 164 28<215.241 336.255> 460 25<219.813 333.382> 480 20G<102 139>
+VStem: 117 26<267.289 385.734> 409 27<266.819 385.294>
 LayerCount: 2
 Fore
 SplineSet
@@ -3784,6 +3948,8 @@ Encoding: 165 165 102
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 0 21G<263 288> 192 23<83 263 288 470> 287 23<83 253 298 470> 676 20G<55 92.1837 458.869 495>
+VStem: 263 25<0 192>
 LayerCount: 2
 Fore
 SplineSet
@@ -3817,6 +3983,7 @@ Encoding: 166 166 103
 Width: 550
 GlyphClass: 2
 Flags: W
+VStem: 265 19<-162 251 305 716>
 LayerCount: 2
 Fore
 SplineSet
@@ -3839,6 +4006,8 @@ Encoding: 167 167 104
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -80 23<191.796 329.263> 679 24<203.734 333.836>
+VStem: 101 24<305.376 402.43> 116 25<519.025 620.708> 407 24<9.07568 116.95> 423 25<221.771 330.741>
 LayerCount: 2
 Fore
 SplineSet
@@ -3899,6 +4068,8 @@ Encoding: 168 168 105
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 624 36<179 217 333 371>
+VStem: 179 38<624 660> 333 38<624 660>
 LayerCount: 2
 Fore
 SplineSet
@@ -3921,6 +4092,8 @@ Encoding: 169 169 106
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: -7 20<198.785 356.723> 131 23<226.981 335.248> 529 23<226.467 334.154> 682 21<197.872 358.644>
+VStem: 21 22<164.271 531.284> 139 24<220.057 463.604> 509 22<163.969 535.305>
 LayerCount: 2
 Fore
 SplineSet
@@ -3975,6 +4148,8 @@ Encoding: 170 170 107
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 271 19<211.997 324.461> 439 17<208.868 387> 585 19<223.893 336.775>
+VStem: 142 21<328.259 402.864> 387 21<276 324 338.801 439 456 540.106>
 LayerCount: 2
 Fore
 SplineSet
@@ -4012,6 +4187,8 @@ Encoding: 171 171 108
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 46 331
+VStem: 146 257
 LayerCount: 2
 Fore
 SplineSet
@@ -4038,6 +4215,8 @@ Encoding: 172 172 109
 Width: 550
 GlyphClass: 2
 Flags: W
+HStem: 261 24<75 451>
+VStem: 451 23<65 261>
 LayerCount: 2
 Fore
 SplineSet

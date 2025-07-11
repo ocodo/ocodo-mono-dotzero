@@ -4,7 +4,7 @@ FullName: OcodoMonoDotZero Thin
 FamilyName: OcodoMonoDotZero-Thin
 Weight: Thin
 Copyright: Ocodo/Jason Milkins ocodo.github.io
-Version: 1.56
+Version: 1.60
 ItalicAngle: 0
 UnderlinePosition: -124
 UnderlineWidth: 25
@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1364125971
-ModificationTime: 1752204580
+ModificationTime: 1752214449
 PfmFamily: 49
 TTFWeight: 100
 TTFWidth: 5
@@ -744,7 +744,7 @@ ShortTable: maxp 16
   0
   0
 EndShort
-LangName: 1033 "" "" "" "" "" "1.56" "" "OcodoMonoDotZero is a trademark of Ocodo" "Ocodo" "Jason Milkins" "" "https://ocodo.github.io/ocodo-mono" "https://ocodo.github.io/ocodo-mono" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded,+AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "OcodoMonoDotZero" "Thin" "" "" "" "OcodoMonoDotZero" "Thin"
+LangName: 1033 "" "" "" "" "" "1.60" "" "OcodoMonoDotZero is a trademark of Ocodo" "Ocodo" "Jason Milkins" "" "https://ocodo.github.io/ocodo-mono" "https://ocodo.github.io/ocodo-mono" "This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded,+AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL" "" "OcodoMonoDotZero" "Thin" "" "" "" "OcodoMonoDotZero" "Thin"
 GaspTable: 1 65535 2 0
 Encoding: UnicodeBmp
 Compacted: 1
@@ -1760,46 +1760,75 @@ StartChar: at
 Encoding: 64 64 35
 Width: 550
 GlyphClass: 2
-Flags: W
-HStem: 0.5 31<265.289 427.486> 489 31<265.289 432.121> 665 31<140.13 412.088>
-VStem: 32.5 31<79.1309 583.5> 171.5 31<104.722 416.002> 485.5 32<10 59.833 89.0682 440.812 462.412 588.139>
+Flags: WO
+HStem: -4.68945 24.9453<161.349 407.776> 134.717 24.9453<222.185 285.901 286.057 325.914> 201.953 24.9434<390.21 454.473> 508.569 24.9434<221.597 324.963> 660.447 24.9453<154.35 381.661>
+VStem: 44.2305 24.9463<112.008 575.13> 164.626 24.9453<192.11 475.866> 332.659 24.9453<167.042 191.521> 357.216 24.9453<240.537 476.03> 463.45 24.9453<240.803 580.355>
 LayerCount: 2
 Fore
 SplineSet
-486.49609375 462.412109375 m 1,0,1
- 486.5 480 486.5 480 486.5 498 c 0,2,3
- 486.5 665 486.5 665 338.5 665 c 2,4,5
- 338.5 665 338.5 665 218.5 665 c 2,6,7
- 63.5 665 63.5 665 63.5 495.5 c 2,8,9
- 63.5 495.5 63.5 495.5 63.5 161 c 2,10,11
- 63.5 112 63.5 112 74.5 87.5 c 128,-1,12
- 85.5 63 85.5 63 115.5 39 c 1,13,14
- 115.5 39 115.5 39 97.5 7 c 1,15,16
- 61.5 40 61.5 40 47 67.5 c 128,-1,17
- 32.5 95 32.5 95 32.5 160 c 2,18,19
- 32.5 160 32.5 160 32.5 496 c 2,20,21
- 32.5 696 32.5 696 223.5 696 c 2,22,23
- 223.5 696 223.5 696 351.5 696 c 2,24,25
- 517.5 696 517.5 696 517.5 496 c 2,26,27
- 517.5 496 517.5 496 517.5 10 c 1,28,-1
- 485.5 10 l 1,29,30
- 485.5 35 485.5 35 485.666992188 59.8330078125 c 1,31,32
- 456 0 456 0 357.5 0.5 c 1,33,34
- 331.5 0.5 331.5 0.5 331.5 0.5 c 1,35,36
- 171.5 0 171.5 0 171.5 200.5 c 1,37,38
- 171.5 320 171.5 320 171.5 320 c 1,39,40
- 171.5 520 171.5 520 331.5 520 c 2,41,42
- 331.5 520 331.5 520 357.5 520 c 2,43,44
- 438.5 520 438.5 520 486.49609375 462.412109375 c 1,0,1
-485.875976562 121.90234375 m 1,45,46
- 486.486328125 395.720703125 486.486328125 395.720703125 486.486328125 395.720703125 c 1,47,48
- 469 489 469 489 362.5 489 c 2,49,50
- 326.5 489 326.5 489 326.5 489 c 2,51,52
- 202 489 202 489 202.5 319.5 c 2,53,54
- 202.5 201 202.5 201 202.5 201 c 2,55,56
- 202.5 31.9979919679 202.5 31.9979919679 326.5 31.5 c 2,57,58
- 362.5 31.5 362.5 31.5 362.5 31.5 c 2,59,60
- 455 32 455 32 485.875976562 121.90234375 c 1,45,46
+211.938476562 685.392578125 m 6,0,-1
+ 324.043945312 685.392578125 l 6,1,2
+ 392 685 392 685 440.62890625 637.154296875 c 4,3,4
+ 488.871370799 589.128052691 488.871370799 589.128052691 488.76953125 520.653320312 c 6,5,-1
+ 488.395507812 269.16796875 l 6,6,7
+ 488 240 488 240 474.752929688 224.39453125 c 4,8,9
+ 455 202 455 202 422.67578125 201.953125 c 4,10,11
+ 389 202 389 202 369.705078125 224.637695312 c 4,12,13
+ 357.215820312 239.739041558 357.215820312 239.739041558 357.215820312 269.16796875 c 6,14,-1
+ 357.215820312 435.310546875 l 6,15,16
+ 357 466 357 466 335.885742188 487.240234375 c 4,17,18
+ 315.4133656 508.569335938 315.4133656 508.569335938 283.956054688 508.569335938 c 6,19,-1
+ 262.831054688 508.569335938 l 6,20,21
+ 232 509 232 509 210.901367188 487.240234375 c 4,22,23
+ 189.571289062 465.564338509 189.571289062 465.564338509 189.571289062 435.310546875 c 6,24,-1
+ 189.571289062 232.904296875 l 6,25,26
+ 190 202 190 202 210.8984375 180.983398438 c 4,27,28
+ 232.339793393 159.662109375 232.339793393 159.662109375 262.831054688 159.662109375 c 6,29,-1
+ 283.956054688 159.662109375 l 6,30,31
+ 286 160 286 160 285.8984375 159.623046875 c 4,32,33
+ 291 160 291 160 293.845703125 159.739257812 c 4,34,35
+ 304 160 304 160 311.563476562 163.004882812 c 4,36,37
+ 321 166 321 166 326.489257812 172.29296875 c 4,38,39
+ 333 179 333 179 332.659179688 191.521484375 c 5,40,-1
+ 357.604492188 191.521484375 l 5,41,42
+ 358 170 358 170 345.392578125 156.020507812 c 4,43,44
+ 336 145 336 145 319.506835938 139.359375 c 4,45,46
+ 304 135 304 135 295.422851562 134.84375 c 4,47,48
+ 291 135 291 135 287.237304688 134.6328125 c 6,49,-1
+ 283.956054688 134.716796875 l 5,50,-1
+ 262.831054688 134.716796875 l 6,51,52
+ 222 135 222 135 193.40625 163.490234375 c 4,53,54
+ 164.625976562 192.375386422 164.625976562 192.375386422 164.625976562 232.904296875 c 6,55,-1
+ 164.625976562 435.310546875 l 6,56,57
+ 165 476 165 476 193.408203125 504.73046875 c 4,58,59
+ 221.523978826 533.512695312 221.523978826 533.512695312 262.831054688 533.512695312 c 6,60,-1
+ 283.956054688 533.512695312 l 6,61,62
+ 325 534 325 534 353.37890625 504.73046875 c 4,63,64
+ 382.161132812 475.838251421 382.161132812 475.838251421 382.161132812 435.310546875 c 6,65,-1
+ 382.161132812 269.16796875 l 6,66,67
+ 382 249 382 249 389.143554688 240.260742188 c 4,68,69
+ 401 227 401 227 422.67578125 226.896484375 c 4,70,71
+ 445 227 445 227 455.705078125 240.50390625 c 4,72,73
+ 463 250 463 250 463.450195312 269.16796875 c 4,74,-1
+ 463.823242188 520.700195312 l 6,75,76
+ 464 579 464 579 423.12109375 619.66796875 c 4,77,78
+ 381.543983997 660.447265625 381.543983997 660.447265625 324.043945312 660.447265625 c 6,79,-1
+ 211.938476562 660.447265625 l 6,80,81
+ 154 660 154 660 112.940429688 619.682617188 c 4,82,83
+ 69.1767578125 576.175720718 69.1767578125 576.175720718 69.1767578125 520.685546875 c 6,84,-1
+ 69.1767578125 157.017578125 l 6,85,86
+ 69 112 69 112 119.940429688 61.0205078125 c 4,87,88
+ 160.743896978 20.255859375 160.743896978 20.255859375 218.938476562 20.255859375 c 6,89,-1
+ 341.043945312 20.255859375 l 6,90,91
+ 416 20 416 20 438.875 59.8642578125 c 5,92,-1
+ 460.475585938 47.392578125 l 5,93,94
+ 430.180638142 -4.689453125 430.180638142 -4.689453125 341.043945312 -4.689453125 c 6,95,-1
+ 218.938476562 -4.689453125 l 6,96,97
+ 151 -5 151 -5 102.446289062 43.525390625 c 4,98,99
+ 44.23046875 101.769419576 44.23046875 101.769419576 44.23046875 157.017578125 c 6,100,-1
+ 44.23046875 520.685546875 l 6,101,102
+ 44 586 44 586 95.4482421875 637.177734375 c 4,103,104
+ 144 685 144 685 211.938476562 685.392578125 c 6,0,-1
 EndSplineSet
 EndChar
 
@@ -3154,7 +3183,7 @@ StartChar: o
 Encoding: 111 111 82
 Width: 550
 GlyphClass: 2
-Flags: W
+Flags: WO
 HStem: -6 21<211.739 338.055> 479 22<214.357 339.842>
 VStem: 77.5 25<141.075 350.585> 447.5 25<138.204 360.161>
 LayerCount: 2
@@ -3171,8 +3200,8 @@ SplineSet
  200.5 501 200.5 501 277.5 501 c 0,0,1
 276.5 479 m 0,16,17
  203.5 479 203.5 479 157.5 431 c 0,18,19
- 102.5 374 102.5 374 102.5 248 c 0,20,21
- 102.5 115 102.5 115 158.5 59 c 0,22,23
+ 102.5 374 102.5 374 102.5 248 c 4,20,21
+ 102.5 115 102.5 115 158.5 59 c 4,22,23
  202.5 15 202.5 15 275.5 15 c 0,24,25
  350.5 15 350.5 15 396.5 63 c 0,26,27
  447.5 117 447.5 117 447.5 245 c 0,28,29
@@ -3584,7 +3613,7 @@ StartChar: braceright
 Encoding: 125 125 96
 Width: 550
 GlyphClass: 2
-Flags: WO
+Flags: W
 HStem: -122 23<137 232.224> 289 26<312.646 413> 702 24<137 231.591>
 VStem: 257 21<-69.3066 235.156 366.234 667.451>
 LayerCount: 2

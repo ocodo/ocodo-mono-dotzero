@@ -2,7 +2,7 @@
 
 # OcodoMono DotZero
 
-A variant of OcodoMono with Dotted Zero and other glyph tweaks.
+Next iteration of OcodoMono font - Dotted Zero and other glyph tweaks, not identical to OcodoMono.
 
 Available as Nerd Font or vanilla.
 

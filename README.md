@@ -1,3 +1,5 @@
+![](ocodo-2022-final-light-cropped.png)
+
 # OcodoMono DotZero
 
 A variant of OcodoMono with Dotted Zero and other glyph tweaks.

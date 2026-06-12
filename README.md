@@ -1,4 +1,4 @@
-![](ocodo-2022-final-light-cropped.png)
+![](images/ocodo-2022-final-light-cropped.png)
 
 # OcodoMono DotZero
 

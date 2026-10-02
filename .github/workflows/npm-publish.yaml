@@ -1,0 +1,50 @@
+name: Publish npm package
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          registry-url: https://registry.npmjs.org
+
+      - name: Download latest release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p package/fonts
+
+          gh release download \
+            --repo "${{ github.repository }}" \
+            --pattern 'OcodoMonoDotZero-NerdFont.zip' \
+            --dir /tmp
+
+      - name: Extract fonts
+        run: |
+          unzip -j \
+            /tmp/OcodoMonoDotZero-NerdFont.zip \
+            'OcodoMonoDotZeroNerdFont-*.woff2' \
+            -d package/fonts
+
+      - name: Prepare package
+        run: |
+          cp package.json package/package.json
+          cp font.css package/font.css
+
+      - name: Publish package
+        working-directory: package
+        run: npm publish --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

@@ -5,6 +5,7 @@ on:
 
 permissions:
   contents: read
+  id-token: write
 
 jobs:
   publish:
@@ -31,7 +32,7 @@ jobs:
             --pattern 'OcodoMonoDotZero-NerdFont.zip' \
             --dir /tmp
 
-      - name: Extract fonts
+      - name: Extract WOFF2 fonts
         run: |
           unzip -j \
             /tmp/OcodoMonoDotZero-NerdFont.zip \
@@ -46,5 +47,3 @@ jobs:
       - name: Publish package
         working-directory: package
         run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

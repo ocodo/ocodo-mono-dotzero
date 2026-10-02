@@ -8,20 +8,15 @@ mkdir -p package/fonts
 
 echo "Downloading latest GitHub release..."
 gh release download \
-  --repo "$REPO" \
-  --pattern 'OcodoMonoDotZero-NerdFont.zip' \
-  --dir /tmp
-
-echo "Extracting fonts..."
-unzip -j \
-  /tmp/OcodoMonoDotZero-NerdFont.zip \
-  'OcodoMonoDotZeroNerdFont-*.ttf' \
-  'OcodoMonoDotZeroNerdFont-*.woff2' \
-  -d package/fonts
+  --repo "$REPO" --clobber \
+  --pattern 'OcodoMonoDotZero-*ttf' \
+  --pattern 'OcodoMonoDotZero-*woff2' \
+  --dir package/fonts
 
 echo "Preparing package..."
-cp nerd.package.json package/package.json
-cp font.css package/font.css
+cp README.md package/
+cp dotzero.package.json package/package.json
+cp dotzero.font.css package/font.css
 
 echo "Node: $(node --version)"
 echo "npm:  $(npm --version)"
@@ -31,3 +26,4 @@ echo "Publishing..."
   cd package
   npm publish --access public
 )
+

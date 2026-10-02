@@ -20,7 +20,7 @@ unzip -j \
   -d package/fonts
 
 echo "Preparing package..."
-cp package.json package/package.json
+cp nerd.package.json package/package.json
 cp font.css package/font.css
 
 echo "Node: $(node --version)"

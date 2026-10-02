@@ -3,7 +3,10 @@
   "version": "1.0.1",
   "description": "Ocodo Mono DotZero with Nerd Font icons",
   "license": "OFL-1.1",
-  "repository": "github:ocodo/ocodo-mono-dotzero",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ocodo/ocodo-mono-dotzero.git"
+  },
   "homepage": "https://github.com/ocodo/ocodo-mono-dotzero",
   "files": [
     "fonts",

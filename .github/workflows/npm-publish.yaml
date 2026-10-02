@@ -32,10 +32,11 @@ jobs:
             --pattern 'OcodoMonoDotZero-NerdFont.zip' \
             --dir /tmp
 
-      - name: Extract WOFF2 fonts
+      - name: Extract fonts
         run: |
           unzip -j \
             /tmp/OcodoMonoDotZero-NerdFont.zip \
+            'OcodoMonoDotZeroNerdFont-*.ttf' \
             'OcodoMonoDotZeroNerdFont-*.woff2' \
             -d package/fonts
 

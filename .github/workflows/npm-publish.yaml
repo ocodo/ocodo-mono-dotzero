@@ -19,35 +19,9 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: '24'
-          registry-url: https://registry.npmjs.org
           package-manager-cache: false
 
-      - name: Download latest release
+      - name: Publish package
         env:
           GH_TOKEN: ${{ github.token }}
-        run: |
-          mkdir -p package/fonts
-          gh release download \
-            --repo "${{ github.repository }}" \
-            --pattern 'OcodoMonoDotZero-NerdFont.zip' \
-            --dir /tmp
-
-      - name: Extract fonts
-        run: |
-          unzip -j \
-            /tmp/OcodoMonoDotZero-NerdFont.zip \
-            'OcodoMonoDotZeroNerdFont-*.ttf' \
-            'OcodoMonoDotZeroNerdFont-*.woff2' \
-            -d package/fonts
-
-      - name: Prepare package
-        run: |
-          cp package.json package/package.json
-          cp font.css package/font.css
-
-      - name: Publish package
-        working-directory: package
-        run: |
-          npm install --global npm@latest
-          npm --version
-          npm publish
+        run: bin/publish.sh

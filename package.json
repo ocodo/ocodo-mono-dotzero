@@ -1,0 +1,15 @@
+{
+  "name": "@ocodo/ocodo-mono-dotzero-nerd",
+  "version": "1.0.0",
+  "description": "Ocodo Mono DotZero with Nerd Font icons",
+  "license": "OFL-1.1",
+  "repository": "github:ocodo/ocodo-mono-dotzero",
+  "homepage": "https://github.com/ocodo/ocodo-mono-dotzero",
+  "files": [
+    "fonts",
+    "font.css"
+  ],
+  "exports": {
+    "./font": "./font.css"
+  }
+}
